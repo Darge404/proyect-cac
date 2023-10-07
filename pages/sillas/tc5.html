@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="no-background">
+    
+    <header>
+        <div>
+            <img src="/img/logo/icono1.png" alt="" class="logo">
+        </div>
+
+        <nav class="navbar">
+            <a href="/index.html">Home</a>
+            <select aria-label="select" class="drop" id="dropdown" onchange="redirigir()">
+                <option class="ocultar" value="">Productos</option>
+                <option value="/pages/pc-armadas.html">PC Armadas</option>
+                <option value="/pages/mouse-teclados.html">Mouse y Teclados</option>
+                <option value="/pages/sillas-gamer.html">Sillas Gamer</option>
+            </select>
+            <a href="/pages/nosotros.html">Nosotros</a>
+            <a href="/pages/contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <script src="/js/script.js"></script>
+
+    <section class="sub_header">
+        <div class="contacto">
+            <h3> Venta Telefónica</h3>
+            <p>[Tel fijo de empresa]</p>
+        </div>
+
+        <div class="contacto">
+            <h3>Horarios</h3>
+            <p>Lunes a viernes de 9:30 a 18:30 hs.
+                Sábados de 10 a 13 hs.</p>
+        </div>
+
+        <div class="contacto">
+            <h3>Escribinos</h3>
+            <p>ventas@hardcore-shop.com.ar</p>
+        </div>
+
+        <div class="contacto">
+            <h3>WhatsApp</h3>
+            <p>[número de empresa]</p>
+        </div>
+    </section>
+   
+    <div class="buy-container">
+
+        <div class="image-container">
+            <!-- Imagen grande -->
+            <div class="large-image">
+                <img src="/img/sillas/tc5.jpeg" alt="Imagen 1 Grande">
+            </div>
+            
+            <!-- Imágenes pequeñas -->
+            <div class="small-images">
+                <img src="/img/sillas/tc-2.jpeg" alt="Imagen 1 Pequeña" class="small-image">
+                <img src="/img/sillas/tc-3.jpeg" alt="Imagen 2 Pequeña" class="small-image">
+
+            </div>
+        </div>
+
+        <div class="buy">
+            <h4 class="ms-name">Silla Gamer Aerocool Thunderx3 TC5 Diva Rosa</h4>
+            <button class="in-stock-button" disabled>En Stock</button>
+            <div class="price">
+                <h3>Precio $104.989</h3>
+            </div>
+            <div class="plus">
+                <ul>
+                   <li>¡12 cuotas sin interés!</li>
+                   <li>Envío a todo el país</li>
+                   <li>Garantía Oficial 12 meses</li>
+               </ul>
+             </div>
+        </div>
+    </div>
+  
+    <div class="marcas">
+        <img class="img-marcas" src="/img/fondo/amd.png" alt="AMD">
+        <img class="img-marcas" src="/img/fondo/nvidia.png" alt="nVidia">
+        <img class="img-marcas" src="/img/fondo/adata.png" alt="Adata">
+        <img class="img-marcas" src="/img/fondo/reddragon.png" alt="Red Dragon">
+        <img class="img-marcas" src="/img/fondo/msi.png" alt="MSI">
+        <img class="img-marcas" src="/img/fondo/logitech.png" alt="Logitech">
+        <img class="img-marcas" src="/img/fondo/kingston.png" alt="Kingston">
+    </div>
+
+
+    <footer class="footer2">
+        <div class="contenedor_derechos2">
+             <p>Derechos reservados @Hardcore-Shop 2023</p>
+         </div>
+    </footer>    
+
+</body>
